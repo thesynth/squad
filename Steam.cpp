@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+int main()
+{
 IOnlineSubsystem* OnlineSub = IOnlineSubsystem::Get(); 
  // Retrieve our Interface
  if (OnlineSub) // if an Online Interface is valid
@@ -16,4 +17,4 @@ IOnlineSubsystem* OnlineSub = IOnlineSubsystem::Get();
  }
  
  MyCallbackFunction(int32 LocalUserNum, bool bWasSuccessful, const FOnlineSessionSearchResult & SessionToJoin)
- 
+}
