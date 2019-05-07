@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+int main()
+{
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
 if (result.err())
 {
@@ -16,3 +17,6 @@ if (result.err())
 {
   // handle error
 }
+}
+
+
