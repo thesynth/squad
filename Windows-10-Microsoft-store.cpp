@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 
 auto result = mpInstance->lobby_session()->invite_friends(xboxLiveContext);
