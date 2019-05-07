@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+int main()
+{
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
 mpInstance->initialize(lobbySessionTemplateName);
@@ -48,4 +49,5 @@ auto result = mpInstance.join_game_from_lobby();
 if (result.err())
 {
   // handle error
+}
 }
