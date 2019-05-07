@@ -39,3 +39,9 @@ if (result.err())
 string_t connectionAddress = L"1.1.1.1";
 mpInstance->lobby_session()->set_local_member_connection_address(
     xboxLiveContext->user(), connectionAddress);
+
+auto result = mpInstance.join_game_from_lobby();
+if (result.err())
+{
+  // handle error
+}
