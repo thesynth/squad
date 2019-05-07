@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+
+
 auto mpInstance = multiplayer_manager::get_singleton_instance();
 
 mpInstance->initialize(lobbySessionTemplateName);
